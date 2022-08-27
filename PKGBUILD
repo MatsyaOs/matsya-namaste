@@ -21,7 +21,7 @@ package() {
     cp -r ./data/. "${pkgdir}${destdir}"
     cp ./data/Welcome.desktop "${pkgdir}${destdir_desktop}"
     cp ./data/Welcome.desktop "${pkgdir}"/usr/share/applications
-    install -Dm644  ./data/amos.png "${pkgdir}${destdir_icon}"
+    install -Dm644  ./data/matsya.svg "${pkgdir}${destdir_icon}"
     install -Dm644 LICENSE "${pkgdir}/usr/share/licenses/${_pkgname}/LICENSE"
     install -Dm644 README.md "${pkgdir}/usr/share/doc/${_pkgname}/README.md"
 }
